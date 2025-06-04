@@ -121,6 +121,7 @@
 
         } else {
             printf ("\n");
+            printf ("\n");
             printf (" %s (%s) é a cidade mais populosa\n", cidade_2, estado_2);
             printf ("\n");
             printf (" Carta 01 - %s: %d habitantes", cidade_1, populacao_1);
