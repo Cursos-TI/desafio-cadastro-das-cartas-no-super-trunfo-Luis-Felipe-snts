@@ -35,7 +35,7 @@
         printf ("Vamos cadastrar os dados?\n");
         printf ("\n");
 
-        printf ("Digite a sigla do estado a que pertence a cidade:");
+        printf ("Digite a sigla do estado a que pertence a primeira cidade:");
         scanf (" %s",&estado_1);
         printf ("\n");
 
@@ -68,7 +68,7 @@
 
         printf ("\n");
 
-        printf ("Digite a sigla do estado a que pertence a cidade: ");
+        printf ("Digite a sigla do estado a que pertence a segunda cidade: ");
         scanf (" %s",&estado_2);
         printf ("\n");
 
@@ -128,6 +128,7 @@
             printf (" Carta 02 - %s: %d habitantes", cidade_2, populacao_2);
             printf ("\n");
             printf (" CARTA 02 (%s) venceu!", codigo2);
+            printf ("\n");
         }
 
         return 0;
