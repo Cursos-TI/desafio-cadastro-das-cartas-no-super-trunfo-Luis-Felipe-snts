@@ -48,7 +48,7 @@
         printf ("\n");
 
         printf ("Digite a quantidade de habitantes dessa cidade: ");
-        scanf ("%lu",&populacao_1);
+        scanf ("%d",&populacao_1);
         printf ("\n");
 
         printf ("Digite a área da cidade em km²: ");
